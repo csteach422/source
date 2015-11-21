@@ -1,0 +1,18 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.csteach.plugin.Test2": {
+        "source": {
+            "type": "local",
+            "path": "../custom-plugins/cordova-plugin-test2"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
