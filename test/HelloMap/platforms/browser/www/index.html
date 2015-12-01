@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one
+ or more contributor license agreements.  See the NOTICE file
+ distributed with this work for additional information
+ regarding copyright ownership.  The ASF licenses this file
+ to you under the Apache License, Version 2.0 (the
+ "License"); you may not use this file except in compliance
+ with the License.  You may obtain a copy of the License at
+ http://www.apache.org/licenses/LICENSE-2.0
+ Unless required by applicable law or agreed to in writing,
+ software distributed under the License is distributed on an
+ "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ KIND, either express or implied.  See the License for the
+ specific language governing permissions and limitations
+ under the License.
+ -->
+<html>
+    <head>
+        <title>Roots4All</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+            <link rel="stylesheet" href="css/style.css"/>
+                <link rel="stylesheet" href="css/Roots4All2.min.css" />
+                <link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+                <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+                <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    
+    
+    <body>
+        <div data-role="page" id="page1">
+        <div role="main" class="ui-content">
+            <section class="image-view">
+                <img src="img/LOGO.jpg">
+                    <section>
+                        </div>
+                        
+            <div class="ui-grid-solo">
+               <div class="ui-block-a"><a href="#page3" class="ui-btn ui-corner-all">Create New Account</a></div>
+               </div>
+            
+            <div class="ui-grid-a ui-responsive">
+                <div class="ui-block-a"><a href="#page5" data-transition="pop" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-search">Search</a></div>
+            <div class="ui-block-b"><a href="#page6" class="ui-btn ui-corner-all">Create or Edit Repositories</a></div>
+                </div>
+               
+               <div class="ui-grid-solo">
+                   <div class="ui-block-a"><a href="#page4" class="ui-btn ui-corner-all">My Account</a></div>
+                   </div>
+        </div>
+    
+        <!-- page2 -->
+        <div data-role="page" id="page2">
+            <div data-role="header" data-theme="a">
+                <h3>Roots4All</h3>
+            </div><!-- /header -->
+            
+                <!-- listview example -->
+                <div>
+                    
+                    <ul data-role="listview" data-inset="true">
+                       
+                        <li>
+                            <a href="#page3" data-transition="slide">
+                                <h3>Monaco</h3>
+                                <p><strong>Principality of Monaco</strong></p>
+                                <p>Monaco is a sovereign city-state, and forms part of the French Riviera. Bordered on three sides by France, the other by the Mediterranean....</p>
+                                <p class="ui-li-aside"><strong>1</strong> image</p>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">
+                                <h3>Nice</h3>
+                                <p>Located in the south of France, close to the border with Italy, Nice is part of the famous French Riviera...</p>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#page4" data-transition="pop">
+                            <h3>Paris</h3>
+                            <p><strong>Tourist Attractions</strong></p>
+                            <p>Paris is home to the infamous Eiffel Tower...</p>
+                            <p class="ui-li-aside"><strong>1</strong> image</p>
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+            </div><!-- /content -->
+        </div><!-- /page2 -->
+        
+        
+        <!-- page3 -->
+        <div data-role="page" data-dialog="true" data-theme="a" id="page3">
+            <div data-role="header">
+                <h3>Create New Account-Update Account</h3>
+            </div><!-- /header -->
+            
+            <div role="main" class="ui-content">
+                <form id="noteForm">
+                    <div class="ui-field-contain">
+                        <label for="noteContent">Username:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">Name:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">Email:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">User Password:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">Confirm Password:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    
+                    <button class="ui-btn ui-corner-all">Submit</button>
+                    </div>
+            </div>
+        </div>
+            
+            <!-- /page3 -->
+        
+        
+        <!-- page4 -->
+        <div data-role="page"  data-dialog="true" data-theme="a" id="page4">
+            <div data-role="header">
+                <h3>My Account</h3>
+            </div><!-- /header -->
+            
+            <div role="main" class="ui-content">
+                <div data-role="controlgroup" data-type="vertical">
+                    
+                    <a href="#page3" class="ui-btn ui-btn-corner-all">New Account</a>
+                    
+                    <a href="#page3" class="ui-btn ui-btn-corner-all">User Info</a>
+                    
+                    <a href="#page6" class="ui-btn ui-btn-corner-all">Review Repositories</a>
+                    
+                    <a href="#page8" class="ui-btn ui-btn-corner-all">Saved Searches</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- /page4 -->
+        
+        
+        
+            <!-- page 5 -->
+            
+            <div data-role="page"  data-dialog="true" data-theme="a" id="page5">
+                <div data-role="header">
+                    <h3>Search Map</h3>
+                </div><!-- /header -->
+                
+                       <div class="ui-grid-a ui-responsive">
+                        <div class="ui-block-a"><a href="#page3" data-transition="pop" class="ui-btn ui-corner-all">Taxonomy Item 1</a></div>
+                            <div class="ui-block-b"><a href="#page3" class="ui-btn ui-corner-all">Taxonomy Item 1</a></div>
+                            
+                            <div class="ui-block-a"><a href="#page6" data-transition="pop" class="ui-btn ui-corner-all">Taxonomy Item 1</a></div>
+                        <div class="ui-block-b"><a href="#page8" class="ui-btn ui-corner-all">Taxonomy Item 1</a></div>
+                            </div>
+                       
+                       
+                    <div class="app">
+                        
+                        <div style="width:100%;height:400px" id="map_canvas"></div>
+                        <button id="button">Full Screen</button>
+                    </div>
+                    <!-- "Go back button"
+                    <div role="main" class="ui-content">
+                        <a href="#page1" class="ui-btn" data-rel="back">Go Back</a>
+                    </div> <!-- /content -->
+                </div><!-- /content -->
+            </div>
+        
+        
+        <!-- page6 -->
+        <div data-role="page"  data-dialog="true" data-theme="a" id="page6">
+            <div data-role="header">
+                <h3>Enter A Repository</h3>
+            </div><!-- /header -->
+            
+            <div role="main" class="ui-content">
+                <form id="noteForm">
+                    <div class="ui-field-contain">
+                        <label for="noteContent">Organization Name:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">Physical Address:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">Mailing Address:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">City or Township:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">County or District:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">State or Province:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">Country:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">Zip or Postal Code:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">Phone Number:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">Hours:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">Website (as applicable):</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    <div class="ui-field-contain">
+                        <label for="noteContent">Notes and Comments:</label>
+                        <input type="text" id="noteContent" name="noteContent"></input>
+                    </div>
+                    
+                    
+                    <div data-role="controlgroup" data-type="horizontal">
+                        <input type="button" id="saveNote" value="Submit" data-inline="true">
+                            <input type="button" id="reloadNote" value="Refresh" data-inline="true">
+                                </div>
+                </form>
+                <!--"Go Back" button
+                <div role="main" class="ui-content">
+                    <a href="#page1" class="ui-btn" data-rel="back">Go Back</a>
+                </div><!-- /content -->
+                
+                
+            </div><!-- /content -->
+        </div><!-- /page6 -->
+        
+        
+        
+        <!-- page 8 -->
+        <div data-role="page" data-dialog="true" data-theme="a" id="page8">
+                <div data-role="header">
+                    <h3>List of Repositories</h3>
+                </div><!-- /header -->
+                <div role="main" class="ui-content">
+                    
+                    
+                    
+                    <!--This is where commands for an overlay list of repositories go. -->
+                    
+                    <div role="main" class="ui-content">
+                         <a href="#page5" class="ui-btn ui-corner-all" data-transition="pop">Map Search List</a>
+                         
+                        <a href="#page5" class="ui-btn ui-corner-all" data-rel="back">Go Back</a>
+                        
+                    </div><!-- /content -->
+                </div><!-- /content -->
+            </div>
+            
+            <!-- /page8-->
+        
+        
+        
+        
+        
+        
+    </body>
+</html>

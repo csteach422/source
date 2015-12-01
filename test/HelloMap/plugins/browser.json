@@ -1,0 +1,38 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"browser-package\" value=\"Device\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.example.myapp"
+        },
+        "plugin.google.maps": {
+            "PACKAGE_NAME": "com.example.myapp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.example.myapp"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.example.myapp"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "com.example.myapp"
+        }
+    },
+    "dependent_plugins": {}
+}

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Roots4All</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/themes/Roots4All-Basic.css" />
+  <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+ 
+    
+</head>
+
+    <body>
+      <!-- page1 -->
+      <div data-role="page" data-dialog="true" data-theme="a" id="page1">
+        <div data-role="header">
+          <h3>Roots4All Dashboard</h3>
+        </div><!-- /header -->
+
+        <!--Large logo goes here -->
+      <div role="main" class="ui-content">
+        <div data-role="content">
+          <div data-role="controlgroup" data-type="ui-content">
+            <a href="#page5" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Search</a>
+            <a href="#page6" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Create or Edit Repositories</a>
+            <a href="#page3" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Create New Account</a>
+            <a href="#page4" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">My Account</a>
+          </div>
+        </div>
+      </div><!-- /content -->
+
+          <div role="main" class="ui-content">
+            <a href="#page1" class="ui-btn" data-rel="back">Go Back</a>
+          </div><!-- /content -->
+      </div><!-- /page1 -->
+
+    <!-- page2 -->
+    <div data-role="page2"  data-dialog="true" data-theme="a" id="page2">
+      <div data-role="header">
+        <h3>Login</h3>
+        </div><!-- /header -->
+          <div role="main" class="ui-content">
+            <form id="noteForm">
+            <div class="ui-field-contain">
+              <label for="noteContent" "ui-corner-all">Username:</label>
+              <input type="text" id="noteContent" name="noteContent"></input>
+            </div>
+            <div class="ui-field-contain">
+              <label for="noteContent" "ui-corner-all">User Password:</label>
+              <input type="text" id="noteContent" name="noteContent"></input>
+            </div>
+            <div data-role="content">
+              <div class="ui-field-contain">
+                <button class="ui-btn""ui-corner-all">Login</button>
+              </div>
+            <div role="main" class="ui-content">
+              <div data-role="content">
+                <a href="#page1" class="ui-btn" "ui-corner-all"data-rel="back">Go Back</a>
+              </div>
+            </div><!-- /content -->
+    </div><!-- /page2-->
+
+    <!-- page3 -->
+    <div data-role="page3" data-dialog="true" data-theme="b" id="page3">
+        <div data-role="header">
+          <h3>Create New Account-Update Account</h3>
+        </div><!-- /header -->
+        <div role="main" class="ui-content">
+          <form id="noteForm">
+            <div class="ui-field-contain">
+              <label for="noteContent" >Username:</label>
+              <input type="text" id="noteContent" name="noteContent"></input>
+            </div>
+            <div class="ui-field-contain">
+              <label for="noteContent" "ui-corner-all">Name:</label>
+              <input type="text" id="noteContent" name="noteContent"></input>
+            </div>
+            <div class="ui-field-contain">
+              <label for="noteContent" "ui-corner-all">Email:</label>
+              <input type="text" id="noteContent" name="noteContent"></input>
+            </div>
+            <div class="ui-field-contain">
+              <label for="noteContent" "ui-corner-all">User Password:</label>
+              <input type="text" id="noteContent" name="noteContent"></input>
+            </div>
+            <div class="ui-field-contain">
+              <label for="noteContent">Confirm Password:</label>
+              <input type="text" id="noteContent" name="noteContent"></input>
+            </div>
+            <div data-role="content">
+              <button class="ui-btn">Submit</button>
+            </div>
+
+          <div role="main" class="ui-content">
+            <div data-role="content">
+              <a href="#page1" class="ui-btn" data-rel="back">Go Back</a>
+            </div>
+          </div><!-- /content -->
+        </div><!-- /content -->
+    </div><!-- /page3 -->
+
+  <!-- page4 -->
+  <div data-role="page"  data-dialog="true" data-theme="b" id="page4">
+    <div data-role="header">
+      <h3>My Account</h3>
+    </div><!-- /header -->
+    <div role="main" class="ui-content">
+      <div data-role="content">
+        <div data-role="controlgroup" data-type="vertical">
+          <a href="#page3" class="ui-btn ui-btn-inline ui-btn-corner-all ui-shadow">New Account</a>
+          <a href="#page3" class="ui-btn ui-btn-inline ui-btn-corner-all ui-shadow">User Info</a>
+          <a href="#page6" class="ui-btn ui-btn-inline ui-btn-corner-all ui-shadow">Review Repositories</a>
+          <a href="#page8" class="ui-btn ui-btn-inline ui-btn-corner-all ui-shadow">Saved Searches</a>
+        </div>
+      </div>
+
+      <div role="main" class="ui-content">
+        <div data-role="content">
+          <a href="#page1" class="ui-btn" data-rel="back">Go Back</a>
+        </div>
+      </div><!-- /content -->
+    </div><!-- /content -->
+  </div><!-- /page4 -->
+    
+  <!-- page5 -->
+  <div data-role="page"  data-dialog="true" data-theme="b" id="page5">
+    <div data-role="header">
+      <h3>Search Map</h3>
+    </div><!-- /header -->
+    <div role="main" class="ui-content">
+      <div data-role="content">
+        <div data-role="controlgroup" data-type="horizontal">
+            <a href="#page3" class="ui-btn ui-btn-inline ui-btn-corner-all ">Taxonomy Item 1</a>
+            <a href="#page3" class="ui-btn ui-btn-inline ui-btn-corner-all ">Taxonomy Item 1</a>
+            <a href="#page6" class="ui-btn ui-btn-inline ui-btn-corner-all ">Taxonomy Item 1</a>
+            <a href="#page8" class="ui-btn ui-btn-inline ui-btn-corner-all ">Taxonomy Item 1</a>
+        </div>
+      </div>
+      
+      <div id="googleMap" style="width:500px;height:380px;"></div>
+
+      <div role="main" class="ui-content">
+          <a href="#page1" class="ui-btn" data-rel="back">Go Back</a>
+          </div><!-- /content -->
+    </div><!-- /content -->
+  </div><!-- /page5 -->
+
+  <!-- page6 -->
+  <div data-role="page"  data-dialog="true" data-theme="b" id="page6">
+    <div data-role="header">
+      <h3>Enter A Repository</h3>
+    </div><!-- /header -->
+    <div role="main" class="ui-content">
+      <form id="noteForm">
+        <div class="ui-field-contain">
+          <label for="noteContent">Organization Name:</label>
+          <input type="text" id="noteContent" name="noteContent"></input>
+        </div>
+        <div class="ui-field-contain">
+          <label for="noteContent">Physical Address:</label>
+          <input type="text" id="noteContent" name="noteContent"></input>
+        </div>
+        <div class="ui-field-contain">
+          <label for="noteContent">Mailing Address:</label>
+          <input type="text" id="noteContent" name="noteContent"></input>
+        </div>
+        <div class="ui-field-contain">
+          <label for="noteContent">City or Township:</label>
+          <input type="text" id="noteContent" name="noteContent"></input>
+        </div>
+        <div class="ui-field-contain">
+          <label for="noteContent">County or District:</label>
+          <input type="text" id="noteContent" name="noteContent"></input>
+        </div>
+        <div class="ui-field-contain">
+          <label for="noteContent">State or Province:</label>
+          <input type="text" id="noteContent" name="noteContent"></input>
+        </div>
+        <div class="ui-field-contain">
+          <label for="noteContent">Country:</label>
+          <input type="text" id="noteContent" name="noteContent"></input>
+        </div>
+        <div class="ui-field-contain">
+          <label for="noteContent">Zip or Postal Code:</label>
+          <input type="text" id="noteContent" name="noteContent"></input>
+        </div>
+        <div class="ui-field-contain">
+          <label for="noteContent">Phone Number:</label>
+          <input type="text" id="noteContent" name="noteContent"></input>
+        </div>
+        <div class="ui-field-contain">
+          <label for="noteContent">Hours:</label>
+          <input type="text" id="noteContent" name="noteContent"></input>
+        </div>
+        <div class="ui-field-contain">
+          <label for="noteContent">Website (as applicable):</label>
+          <input type="text" id="noteContent" name="noteContent"></input>
+        </div>
+        <div class="ui-field-contain">
+          <label for="noteContent">Notes and Comments:</label>
+          <input type="text" id="noteContent" name="noteContent"></input>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal">
+          <div data-role="content">
+            <input type="button" id="saveNote" data-icon="action" value="Submit" data-inline="true">
+            <input type="button" id="reloadNote" data-icon="refresh" value="Refresh" data-inline="true">
+          </div>
+        </div>
+      </form>
+      <div role="main" class="ui-content">
+          <a href="#page1" class="ui-btn" data-rel="back">Go Back</a>
+          </div><!-- /content -->
+    </div><!-- /content -->
+  </div><!-- /page6 -->
+
+  <!-- page7 -->
+  <div data-role="page"  data-dialog="true" data-theme="b" id="page7">
+    <div data-role="header">
+      <h3>Saved Searches</h3>
+    </div><!-- /header -->
+      <form id="noteForm">
+        <div class="ui-field-contain">
+          <label for="noteContent">Search Name</label>
+          <input type="text" id="noteContent" name="noteContent"></input>
+
+          <!-- this is where there would be a list of the Saved Searches of some sort. -->
+        </div>
+
+      <div role="main" class="ui-content">
+          <a href="#page4" class="ui-btn" data-rel="back">Go Back</a>
+      </div><!-- /content -->
+    
+  </div><!-- /page7 -->
+
+  <!-- page8 -->
+  <div data-role="page" data-dialog="true" data-theme="b" id="page8">
+    <a href="#page5" data-transition="pop">Map Search List</a>
+    <div data-role="page" data-dialog="true" id="page8">
+    <div data-role="header">
+      <h3>List of Repositories</h3>
+    </div><!-- /header -->
+    <div role="main" class="ui-content">
+
+
+      <!--This is where commands for an overlay list of repositories go. -->
+    </div>
+      <div role="main" class="ui-content">
+          <a href="#page5" class="ui-btn" data-rel="back">Go Back</a>
+      </div><!-- /content -->
+    </div><!-- /content -->
+  </div><!-- /page8 -->
+
+  <!-- page9 -->
+  <div data-role="page" data-dialog="true" data-theme="b" id="page9">
+    <div data-role="header">
+      <h3>Review Repositories</h3>
+    </div><!-- /header -->
+    <div role="main" class="ui-content">
+
+      <!--Dropdown list for Review, Update Venue button, Share icons, Delete Repository -->
+
+      <div role="main" class="ui-content">
+          <a href="#page4" class="ui-btn" data-rel="back">Go Back</a>
+          </div><!-- /content -->
+    </div><!-- /content -->
+  </div><!-- /page9 -->
+
+  <!-- page10 -->
+  <div data-role="page" data-dialog="true" data-theme="b" id="page10">
+    <div data-role="header">
+      <h3>Delete Repository or Search</h3>
+    </div><!-- /header -->
+    <div role="main" class="ui-content">
+      <p>Warning: Are you sure you want to submit this search or repository for deletion? This action cannot be undone.</p>
+
+      <div role="main" class="ui-content">
+        <div data-role="content">
+          <div data-role="controlgroup" data-type="horizontal">
+            <a href="#" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Yes</a>
+            <a href="#" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">No</a>
+            <a href="#" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">Cancel</a>
+          </div>
+        </div>
+      </div><!-- /content -->
+
+      <div role="main" class="ui-content">
+        <div data-role="content">
+          <a href="#page9" class="ui-btn" data-rel="back">Go Back</a>
+        </div>
+      </div><!-- /content -->
+  </div><!-- /page10 -->
+  </body>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+  <script src="http://maps.googleapis.com/maps/api/js"></script>
+  <script>
+    function initialize() {
+      var mapProp = {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:10,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    } 
+    google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+</html>
