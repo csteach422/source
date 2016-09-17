@@ -1,6 +1,6 @@
 ### Readme - Source - 2016 - week 3
 
-Cordova source code examples for week 3, Fall 2016.
+Cordova source code examples for week 3, Fall 2016
 
 #### Notes
 For Cordova source code examples, each app's `www` directory, `config.xml` file, and any associated custom files have been included.
