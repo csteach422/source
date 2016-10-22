@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+  <head>
+  <!--    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">-->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!-- css styles -->
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- js scripts -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mobile.js"></script>
+    <script type="text/javascript" src="js/plugin.js"></script>
+    <!-- app title -->
+    <title>Data Test2</title>
+  </head>
+  <body>
+    <!-- homepage -->
+	 <div data-role="page" id="home">
+		<div data-role="header">
+	   <h3>data test 2 - IndexedDB</h3>
+		</div><!-- /header -->
+	   <div role="main" class="ui-content">
+      <!-- container for plugin options... -->
+      <div data-role="content">
+        <h3>Cordova Storage Test</h3>
+        <p>a test of IndexedDB...</p>
+        <!-- note form -->
+        <form id="noteForm">
+          <div class="ui-field-contain">
+            <label for="noteName">Note Title</label>
+            <input type="text" id="noteName" name="noteName"></input>
+          </div>
+          <div class="ui-field-contain">
+            <label for="noteContent">Note Content</label>
+            <input type="text" id="noteContent" name="noteContent"></input>
+          </div>
+          <div data-role="controlgroup" data-type="horizontal">
+            <input type="button" id="saveNote" data-icon="action" value="Save Note" data-inline="true"/>
+            <input type="button" id="loadNote" data-icon="refresh" value="Load Note" data-inline="true"/>
+            <input type="button" id="loadNotes" data-icon="refresh" value="Load Notes" data-inline="true"/>
+          </div>
+        </form>
+      <!-- note output container -->
+      <div id="note-output"></div>
+      </div><!-- /content -->
+     </div><!-- /main -->
+    </div><!-- /homepage -->
+  </body>
+</html>
