@@ -1,6 +1,6 @@
-### Readme - Source - 2016 - week 8
+### Readme - Source - 2016 - week 9
 
-Source code examples for week 8, Fall 2016.
+Source code examples for week 9, Fall 2016.
 
 #### Contents
-* datatest2 - working with IndexedDB
+*  - working with JSON and deferred objects
