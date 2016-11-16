@@ -3,4 +3,6 @@
 Some extra tests and apps.
 
 #### Contents
-* sqltest
+* cordova
+  * maptest
+  * sqltest
