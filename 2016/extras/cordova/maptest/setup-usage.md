@@ -6,7 +6,7 @@
 * add cordova plugin for geolocation
 	* `cordova plugin add cordova-plugin-geolocation`
 * use Bower &c. to install OnsenUI
-	* `bower instal onsenui`
+	* `bower install onsenui`
 * add OnsenUI JS and CSS to `index.html`
 * add JS for Google Maps library to `index.html`
 	* get key for using maps api
