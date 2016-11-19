@@ -1,0 +1,47 @@
+/*
+	style.css
+		* custom styles for Cordova & OnsenUI
+*/
+
+/* remove default all uppercase... */
+body {
+	text-transform: none;
+	color:#444;
+	font-size: 100%;
+}
+
+/* headings */
+h3, h4, h5, h6 {
+	color: #1f4463;
+}
+
+h3 {
+	padding: 5px 10px 5px 10px;
+	font-size: 1.15em;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+/* page content */
+.page-content {
+	padding: 0 15px 0 15px;
+}
+
+/* note card for grid column */
+.note-card {
+	margin: 5px;
+	padding: 5px;
+	box-shadow: 0 1px 4px #b1c4b1; 
+	background-color: #ffffff; 
+	min-height: 125px;
+	min-width: 125px;
+	font-size: 0.8em;
+}
+
+.note-card h5 {
+	margin:0;
+	padding: 3px 5px 3px 5px;
+	font-size: 1.1em;
+}
