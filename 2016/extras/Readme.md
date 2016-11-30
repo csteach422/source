@@ -4,3 +4,4 @@ Some extra tests and apps.
 
 #### Contents
 * cordova
+* oauth
