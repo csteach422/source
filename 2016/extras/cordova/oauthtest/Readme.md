@@ -23,7 +23,7 @@ This test app uses Google's OAuth 2.0 authentication. Upon receipt of the requir
 * [Google Identity Platform](https://developers.google.com/identity/protocols/OAuth2UserAgent)
 
 #### Testing
-To test this app, you'll need to run it on a connected device. It will not load correctly using the `browser` platform due to domain issues. Simply issue the following Cordova CLI command with a device connected to your local machine,
+To test this app, you'll need to run it on a connected device. It will not load correctly using the `browser` platform due to plugin and domain issues. Simply issue the following Cordova CLI command with a device connected to your local machine,
 
 ```bash
 cordova run android
