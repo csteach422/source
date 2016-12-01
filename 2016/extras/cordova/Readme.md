@@ -7,7 +7,7 @@ Some extra tests and apps.
   * maptest
     * add geolocation and maps
   * oauthtest
-    * test OAuth 2.0 authentication and token response
+    * abstracted OAuth 2.0 authentication and token response
   * splitternav
     * example app with custom splitter component and navigation stack
   * sqltest
