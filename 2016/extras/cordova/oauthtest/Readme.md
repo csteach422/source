@@ -16,11 +16,11 @@ A brief overview of setup for OAuth 2.0 authentication with a Cordova app.
 #### Usage
 This test app uses the jQuery based Cordova OAuth 2 plugin to enable access to OAuth 2 based services, including Facebook, Google, Instagram, &c. Further details are available at the following URL,
 
-	* [GitHub - jquery-cordova-oauth2](https://github.com/krisrak/jquery-cordova-oauth2).
+* [GitHub - jquery-cordova-oauth2](https://github.com/krisrak/jquery-cordova-oauth2).
 
 This test app uses Google's OAuth 2.0 authentication. Upon receipt of the required access token for an authorised user session, use the following guidelines to implement required usage, e.g. Google docs
 
-	* [Google Identity Platform](https://developers.google.com/identity/protocols/OAuth2UserAgent)
+* [Google Identity Platform](https://developers.google.com/identity/protocols/OAuth2UserAgent)
 
 #### Testing
 To test this app, you'll need to run it on a connected device. It will not load correctly using the `browser` platform due to domain issues. Simply issue the following Cordova CLI command with a device connected to your local machine,
