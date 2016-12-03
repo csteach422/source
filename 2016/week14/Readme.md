@@ -3,5 +3,5 @@
 Source code examples for week 14, Fall 2016.
 
 #### Contents
-* international test
-* network test
+* internationaltest
+* networktest
