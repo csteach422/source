@@ -1,6 +1,6 @@
-### Readme - Source - Week 3 - Cordova
+### Readme - Source - Week 4 - Cordova
 
-Cordova source code examples for week 3.
+Cordova source code examples for week 4.
 
 #### Notes
 For Cordova source code examples, each app's `www` directory, `config.xml` file, and any associated custom files have been included.
