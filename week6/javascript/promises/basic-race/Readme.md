@@ -2,6 +2,12 @@
 
 A brief demo of basic `Promise.race` usage with getJSON and local files.
 
+*n.b.* demo may require a running server - e.g. Python's SimpleHTTPServer,
+
+```bash
+python -m SimpleHTTPServer
+```
+
   * FN: `getJSON()` function
     * returns Promise object - callbacks for resolve and reject
     * create XHR object using constructor for XMLHTTPRequest

@@ -35,7 +35,7 @@ function getJSON(url) {
 Promise.all([
 // call getJSON with required URL, `then` method for resolve object, and `catch` for error
 getJSON("notes.json"),
-getJSON("metadataa.json")]).then(response => {
+getJSON("metadata.json")]).then(response => {
   // check return value from promise...response[0] = notes.json, response[1] = metadata.json &c.
   if (response[0] !== null) {
 		console.log("response obtained");
