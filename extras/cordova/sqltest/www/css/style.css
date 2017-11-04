@@ -1,0 +1,36 @@
+/*
+	style.css
+		* custom styles for Cordova & jQuery Mobile
+*/
+
+/* remove default all uppercase...*/
+body {
+	text-transform: none;
+	color:#444;
+	font-size: 100%;
+}
+
+h3, h4, h5, h6 {
+	color: #1f4463;
+}
+
+/* customise page header */
+.ui-page .ui-header {
+	/* oxford navy blue */
+	background-color: #1f4463;
+	/* divides header and statusbar on native OS */
+	border-top: 1px solid #1a3852;
+	/* cambridge blue */
+	border-bottom: 3px solid #b1c4b1;
+}
+
+/* customise header title */
+.ui-header .ui-title {
+	font-weight: bold;
+	text-shadow: none;
+	color: #ffffff;
+}
+
+.ui-content {
+	font-size: 0.9em;
+}
