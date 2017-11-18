@@ -6,7 +6,7 @@ This repository includes source code examples developed for COMP 422.
 * various React Native basic examples
   * Flex
   * Props
-  * State
+  * State - part 1
   * Style
   * TextInput
   * Touch
