@@ -1,8 +1,6 @@
-### Source - Cordova Extras
+### Source - Extras
 
 This repository includes source code examples developed for COMP 422.
 
 #### Contents
-* international test
-* map test
-* network test
+* various extra examples
