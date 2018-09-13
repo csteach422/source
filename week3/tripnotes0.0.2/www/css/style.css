@@ -1,0 +1,10 @@
+body {
+  background-color: #ccc;
+}
+
+/* image-view section image */
+section.image-view img {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
