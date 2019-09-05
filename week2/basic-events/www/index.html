@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Basic Events</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h3>Test Events</h3>
+      </header>
+      <section id="events">
+        <!-- output current status relative to PAUSE event... -->
+        <p id="pause"></p>
+        <!-- output current status relative to RESUME event... -->
+        <p id="resume"></p>
+        <!-- output timer to check loading and app events -->
+        <div id="timer">
+          <label id="minutes">00</label>:<label id="seconds">00</label>
+        </div>
+      </section>
+    </main>
+    <!-- load JS files for app - cordova.js required -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <!-- load app main file -->
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
